@@ -10,7 +10,7 @@ export const addExpense = (expense) => ({
 export const startAddExpense = (expenseData = {}) => {
   return (dispatch) => {
     const {
-      description = '', 
+      description = '',
       note = '', 
       amount = 0, 
       createdAt = 0
